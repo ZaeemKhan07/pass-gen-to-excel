@@ -1,9 +1,0 @@
-version: '3.8'
-
-services:
-  generator:
-    build: .
-    image: mypassword-app
-    # These two lines allow interactive input
-    stdin_open: true # docker run -i
-    tty: true        # docker run -t
